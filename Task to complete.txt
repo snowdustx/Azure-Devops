@@ -1,0 +1,11 @@
+Create a pipeline in Azure DevOps using YAML
+Validate the Terrafporm code as part of the pipeline (validate and format)
+move credentials and sensitive data into Azure Key Vault
+Use Azure Storage for remote backend with credentials in Key Vault
+Generate a plan for the Terrafporm code
+stash the plan in an Azure Storage account
+Validate the plan with a manual step
+Deploy the code once the manual step is approved
+Seperate the pipeline intotwo pipelines, one for provisioning and one for merge
+Add code scanning to the process using Checkov
+Add testing to the process using terratest or Module Testing
